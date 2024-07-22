@@ -72,3 +72,21 @@ button:focus-visible {
   }
 }
 
+/* Add these styles to index.css */
+
+/* Make sure articles are initially collapsed */
+article > div {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+}
+
+/* When an article is expanded, its divs should show their content */
+input:checked + article > div {
+  max-height: 1000px; /* Set a sufficiently large max-height to fit the content */
+}
+
+/* Optional: Add transition for smooth collapsing */
+article {
+  transition: all 0.5s ease;
+}
