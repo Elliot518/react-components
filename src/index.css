@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Ensure the nav is at the top of the page */
+nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  z-index: 10; /* Ensure it is above other content */
+}
+
+/* Ensure body has no margin */
+body {
+  margin: 0;
+  padding-top: 60px; /* Adjust if needed to make space for the nav */
+}
+
+/* Your other styles here */
+
 /* Your custom styles */
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;

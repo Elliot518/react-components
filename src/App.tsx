@@ -18,16 +18,9 @@ const App: React.FC = () => {
 
   return (
     <Router>
-      <div className="bg-gradient-to-t from-purple-300 to-purple-100 flex flex-col gap-12 items-center justify-center min-h-screen p-4
-          before:[&:has(#radio-1:checked)_#toggle-1]:scale-100
-          before:[&:has(#radio-2:checked)_#toggle-2]:scale-100
-          before:[&:has(#radio-3:checked)_#toggle-3]:scale-100
-          before:[&:has(#radio-4:checked)_#toggle-4]:scale-100
-          before:[&:has(#radio-5:checked)_#toggle-5]:scale-100
-          before:[&:has(#radio-6:checked)_#toggle-6]:scale-100
-          before:[&:has(#radio-7:checked)_#toggle-7]:scale-100">
+      <div>
 
-        <div className="bg-white/50 backdrop-blur-md ring ring-black/5 p-8 w-full max-w-5xl rounded-xl shadow-2xl shadow-purple-300 ">
+        <div className="w-full max-w-5xl rounded-xl shadow-2xl">
           <nav className="flex flex-wrap gap-0 text-sm
                       *:py-2
                       *:px-4
