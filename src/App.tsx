@@ -21,7 +21,7 @@ const App: React.FC = () => {
       <div>
 
         <div className="w-full max-w-5xl rounded-xl shadow-2xl">
-          <nav className="flex flex-wrap gap-0 text-sm
+        <nav className="flex flex-wrap gap-0 text-sm
                       *:py-2
                       *:px-4
                       *:relative
@@ -40,8 +40,7 @@ const App: React.FC = () => {
                       before:*:ease-[cubic-bezier(.47,1.64,.38,.87)]
                       before:*:scale-0
                       before:*:origin-left 
-                      hover:before:*:scale-100
-                  ">
+                      hover:before:*:scale-100">
             <label id="toggle-1" htmlFor="radio-1" onClick={() => handleLabelClick('panel-1')}>Fundamental</label>
             <label id="toggle-2" htmlFor="radio-2" onClick={() => handleLabelClick('panel-2')}>Animation</label>
             <label id="toggle-3" htmlFor="radio-3" onClick={() => handleLabelClick('panel-3')}>Decor</label>

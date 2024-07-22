@@ -8,8 +8,11 @@ nav {
   top: 0;
   width: 100%;
   margin: 0;
-  padding: 0;
+  padding: 0.5rem; /* Adjust padding as needed */
   z-index: 10; /* Ensure it is above other content */
+  border: 1px solid #C7C7C7; /* Add border */
+  border-radius: 12px; /* Add border radius for rounded rectangle */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: add shadow */
 }
 
 /* Ensure body has no margin */
