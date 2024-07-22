@@ -34,8 +34,8 @@ const App: React.FC = () => {
                     before:*:origin-left 
                     hover:before:*:scale-100
                 ">
-          <label id="toggle-1" htmlFor="radio-1">Furniture</label>
-          <label id="toggle-2" htmlFor="radio-2">Lighting</label>
+          <label id="toggle-1" htmlFor="radio-1">Fundamental</label>
+          <label id="toggle-2" htmlFor="radio-2">Animation</label>
           <label id="toggle-3" htmlFor="radio-3">Decor</label>
           <label id="toggle-4" htmlFor="radio-4">Serving & Tableware</label>
           <label id="toggle-5" htmlFor="radio-5">Textiles & Carpets</label>
@@ -90,7 +90,7 @@ const App: React.FC = () => {
           <input type="radio" id="radio-1" name="panel-toggle" className="sr-only" />
           <article id="panel-1">
             <div>
-              <h3>Living Room</h3>
+              <h3>Cool Components</h3>
               <ul>
                 <li><a href="#">Sofas</a></li>
                 <li><a href="#">Coffee Tables</a></li>
@@ -104,7 +104,7 @@ const App: React.FC = () => {
               </ul>
             </div>
             <div>
-              <h3>Kitchen</h3>
+              <h3>Cool Div</h3>
               <ul>
                 <li><a href="#">Cookware</a></li>
                 <li><a href="#">Cutlery</a></li>
@@ -117,26 +117,19 @@ const App: React.FC = () => {
               </ul>
             </div>
             <div>
-              <h3>Bedroom</h3>
+              <h3>Other1</h3>
               <ul>
-                <li><a href="#">Beds</a></li>
-                <li><a href="#">Wardrobes</a></li>
-                <li><a href="#">Dressers</a></li>
-                <li><a href="#">Nightstands</a></li>
-                <li><a href="#">Bedding</a></li>
-                <li><a href="#">Mirrors</a></li>
-                <li><a href="#">Lamps</a></li>
+                <li><a href="#">abc</a></li>
+                <li><a href="#">def</a></li>
+                <li><a href="#">hij</a></li>
               </ul>
             </div>
             <div>
-              <h3>Entrance & Hallways</h3>
+              <h3>Other2</h3>
               <ul>
-                <li><a href="#">Console Tables</a></li>
-                <li><a href="#">Coat Racks</a></li>
-                <li><a href="#">Shoe Storage</a></li>
-                <li><a href="#">Mirrors</a></li>
-                <li><a href="#">Rugs</a></li>
-                <li><a href="#">Lighting</a></li>
+                <li><a href="#">abc</a></li>
+                <li><a href="#">def</a></li>
+                <li><a href="#">hij</a></li>
               </ul>
             </div>
           </article>
@@ -144,33 +137,19 @@ const App: React.FC = () => {
           <input type="radio" id="radio-2" name="panel-toggle" className="sr-only" />
           <article id="panel-2">
             <div>
-              <h3>Interior</h3>
+              <h3>Demo1</h3>
               <ul>
-                <li><a href="#">Ceiling Lights</a></li>
-                <li><a href="#">Pendant Lights</a></li>
-                <li><a href="#">Chandeliers</a></li>
-                <li><a href="#">Recessed Lighting</a></li>
-                <li><a href="#">Track Lighting</a></li>
-                <li><a href="#">Wall Sconces</a></li>
-                <li><a href="#">Table Lamps</a></li>
-                <li><a href="#">Floor Lamps</a></li>
-                <li><a href="#">Under Cabinet Lighting</a></li>
-                <li><a href="#">Accent Lighting</a></li>
+                <li><a href="#">abc</a></li>
+                <li><a href="#">def</a></li>
+                <li><a href="#">hij</a></li>
               </ul>
             </div>
             <div>
-              <h3>Exterior</h3>
+              <h3>Demo2</h3>
               <ul>
-                <li><a href="#">Outdoor Wall Lights</a></li>
-                <li><a href="#">Outdoor Ceiling Lights</a></li>
-                <li><a href="#">Landscape Lighting</a></li>
-                <li><a href="#">Pathway Lights</a></li>
-                <li><a href="#">Deck & Step Lights</a></li>
-                <li><a href="#">Outdoor Post Lights</a></li>
-                <li><a href="#">Security Lights</a></li>
-                <li><a href="#">Flood Lights</a></li>
-                <li><a href="#">String Lights</a></li>
-                <li><a href="#">Solar Lights</a></li>
+                <li><a href="#">abc</a></li>
+                <li><a href="#">def</a></li>
+                <li><a href="#">hij</a></li>
               </ul>
             </div>
           </article>
@@ -292,12 +271,12 @@ const App: React.FC = () => {
           <input type="radio" id="radio-7" name="panel-toggle" className="sr-only" />
           <article id="panel-7">
             <div>
-              <h3>Furniture</h3>
+              <h3>Fundamental</h3>
               <ul>
                 <li><a href="#">Outdoor Tables</a></li>
                 <li><a href="#">Outdoor Chairs</a></li>
                 <li><a href="#">Patio Sets</a></li>
-                <li><a href="#">Lounge Furniture</a></li>
+                <li><a href="#">Lounge Fundamental</a></li>
                 <li><a href="#">Umbrellas</a></li>
                 <li><a href="#">Outdoor Cushions</a></li>
               </ul>
