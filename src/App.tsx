@@ -152,9 +152,9 @@ const App: React.FC = () => {
                 </ul>
               </div>
               <div>
-                <h3>Demo2</h3>
+                <h3>Generic</h3>
                 <ul>
-                  <li onClick={handleItemClick}><a href="#">abc</a></li>
+                  <li onClick={handleItemClick}><Link to="/rainbow-loader-demo">Rainbow Loader Demo</Link></li>
                   <li onClick={handleItemClick}><a href="#">def</a></li>
                   <li onClick={handleItemClick}><a href="#">hij</a></li>
                 </ul>
