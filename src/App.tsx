@@ -147,7 +147,7 @@ const App: React.FC = () => {
                 <h3>eCommerce</h3>
                 <ul>
                   <li onClick={handleItemClick}><Link to="/love-heart-demo">Love Heart Demo</Link></li>
-                  <li onClick={handleItemClick}><Link to="/def">def</Link></li>
+                  <li onClick={handleItemClick}><Link to="/five-star-rating-demo">Five Star Rating Demo</Link></li>
                   <li onClick={handleItemClick}><Link to="/hij">hij</Link></li>
                 </ul>
               </div>
