@@ -1,11 +1,17 @@
-.ironman-container {
+/* IronManLoader.css */
+
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to top, #70b9f1, #1e3c55);
-  overflow: hidden;
+  background: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+  z-index: 9999; /* High z-index to overlay other content */
+  backdrop-filter: blur(10px); /* Background blur effect */
 }
 
 .iron-man {
@@ -80,7 +86,7 @@
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 58%;
+  top: 70%;
   color: #fff;
   font-size: 14px;
   letter-spacing: 3px;
