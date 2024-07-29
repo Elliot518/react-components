@@ -10,9 +10,10 @@ nav {
   margin: 0;
   padding: 0.5rem; /* Adjust padding as needed */
   z-index: 10; /* Ensure it is above other content */
-  border: 1px solid #C7C7C7; /* Add border */
+  border: 1px solid #FFFFFF; /* Add white border */
   border-radius: 12px; /* Add border radius for rounded rectangle */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: add shadow */
+  background-color: #242424; /* Dark background for the nav */
 }
 
 /* Ensure body has no margin */
@@ -21,17 +22,15 @@ body {
   padding-top: 60px; /* Adjust if needed to make space for the nav */
 }
 
-/* Your other styles here */
-
-/* Your custom styles */
+/* Global styles for dark theme */
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color-scheme: dark;
+  color: rgba(255, 255, 255, 0.87); /* White text */
+  background-color: #121212; /* Dark background */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -41,24 +40,17 @@ body {
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #FFFFFF; /* White text for links */
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  color: #BBBBBB; /* Lighter shade for hovered links */
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: #FFFFFF; /* White text for headings */
 }
 
 button {
@@ -68,16 +60,27 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #1a1a1a; /* Dark background for buttons */
+  color: #FFFFFF; /* White text for buttons */
   cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #FFFFFF; /* White border on hover */
 }
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* Ensure body has a dark background */
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #121212; /* Dark background */
 }
 
 @media (prefers-color-scheme: light) {
@@ -86,28 +89,27 @@ button:focus-visible {
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
+    color: #00FA9A;
   }
 }
 
-/* Add these styles to index.css */
-
-/* Make sure articles are initially collapsed */
-article > div {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.5s ease;
+.toggle-label {
+  color: #228B22;
 }
 
-/* When an article is expanded, its divs should show their content */
-input:checked + article > div {
-  max-height: 1000px; /* Set a sufficiently large max-height to fit the content */
+h3 {
+  font-weight: bold;
+  color: #3CB371;
 }
 
-/* Optional: Add transition for smooth collapsing */
-article {
-  transition: all 0.5s ease;
+.toggle-label {
+  color: #228B22;
+}
+
+.toggle-label:hover {
+  color: #00FA9A;
+}
+
+.menu-item:hover {
+  color: #00FA9A;
 }

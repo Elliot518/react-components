@@ -41,13 +41,13 @@ const App: React.FC = () => {
                       before:*:scale-0
                       before:*:origin-left 
                       hover:before:*:scale-100">
-            <label id="toggle-1" htmlFor="radio-1" onClick={() => handleLabelClick('panel-1')}>Fundamental</label>
-            <label id="toggle-2" htmlFor="radio-2" onClick={() => handleLabelClick('panel-2')}>Animation</label>
-            <label id="toggle-3" htmlFor="radio-3" onClick={() => handleLabelClick('panel-3')}>Decor</label>
-            <label id="toggle-4" htmlFor="radio-4" onClick={() => handleLabelClick('panel-4')}>Serving & Tableware</label>
-            <label id="toggle-5" htmlFor="radio-5" onClick={() => handleLabelClick('panel-5')}>Textiles & Carpets</label>
-            <label id="toggle-6" htmlFor="radio-6" onClick={() => handleLabelClick('panel-6')}>Jewelry & Accessories</label>
-            <label id="toggle-7" htmlFor="radio-7" onClick={() => handleLabelClick('panel-7')}>Outdoor Environment</label>
+            <label id="toggle-1" htmlFor="radio-1" onClick={() => handleLabelClick('panel-1')} className="toggle-label">Fundamental</label>
+            <label id="toggle-2" htmlFor="radio-2" onClick={() => handleLabelClick('panel-2')} className="toggle-label">Animation</label>
+            <label id="toggle-3" htmlFor="radio-3" onClick={() => handleLabelClick('panel-3')} className="toggle-label">Decor</label>
+            <label id="toggle-4" htmlFor="radio-4" onClick={() => handleLabelClick('panel-4')} className="toggle-label">Serving & Tableware</label>
+            <label id="toggle-5" htmlFor="radio-5" onClick={() => handleLabelClick('panel-5')} className="toggle-label">Textiles & Carpets</label>
+            <label id="toggle-6" htmlFor="radio-6" onClick={() => handleLabelClick('panel-6')} className="toggle-label">Jewelry & Accessories</label>
+            <label id="toggle-7" htmlFor="radio-7" onClick={() => handleLabelClick('panel-7')} className="toggle-label">Outdoor Environment</label>
           </nav>
 
           <section className="grid [grid-template-areas:'stack']  mt-8
