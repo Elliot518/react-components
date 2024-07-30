@@ -157,6 +157,7 @@ const App: React.FC = () => {
                   <li onClick={handleItemClick}><Link to="/rainbow-loader-demo">Rainbow Loader Demo</Link></li>
                   <li onClick={handleItemClick}><Link to="/jumpingball-loader-demo">Jumping Ball Loader Demo</Link></li>
                   <li onClick={handleItemClick}><a href="/ironman-loader-demo">IronMan loader demo</a></li>
+                  <li onClick={handleItemClick}><a href="/card-carousel-demo">Card carousel demo</a></li>
                 </ul>
               </div>
             </article>
