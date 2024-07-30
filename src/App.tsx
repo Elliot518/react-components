@@ -169,18 +169,6 @@ const App: React.FC = () => {
                   <li onClick={handleItemClick}><a href="#">Vases</a></li>
                   <li onClick={handleItemClick}><a href="#">Sculptures</a></li>
                   <li onClick={handleItemClick}><a href="#">Picture Frames</a></li>
-                  <li onClick={handleItemClick}><a href="#">Cushions</a></li>
-                  <li onClick={handleItemClick}><a href="#">Throws</a></li>
-                  <li onClick={handleItemClick}><a href="#">Mirrors</a></li>
-                  <li onClick={handleItemClick}><a href="#">Wall Clocks</a></li>
-                  <li onClick={handleItemClick}><a href="#">Candles</a></li>
-                  <li onClick={handleItemClick}><a href="#">Planters</a></li>
-                  <li onClick={handleItemClick}><a href="#">Room Dividers</a></li>
-                  <li onClick={handleItemClick}><a href="#">Cabinets</a></li>
-                  <li onClick={handleItemClick}><a href="#">Shelves</a></li>
-                  <li onClick={handleItemClick}><a href="#">Blankets</a></li>
-                  <li onClick={handleItemClick}><a href="#">Pillows</a></li>
-                  <li onClick={handleItemClick}><a href="#">Poufs</a></li>
                 </ul>
               </div>
             </article>
