@@ -1,5 +1,10 @@
 import React from 'react';
 import styles from './CardCarouselLoader.module.css';
+import image1 from '../../../assets/1.jpg'
+import image2 from '../../../assets/2.png'
+import image3 from '../../../assets/3.png'
+import image4 from '../../../assets/4.png'
+import image5 from '../../../assets/5.png'
 
 interface CardCarouselLoaderProps {
   isLoading: boolean;
@@ -15,7 +20,7 @@ const CardCarouselLoader: React.FC<CardCarouselLoaderProps> = ({ isLoading, onCl
         <div className={styles.card} style={{ '--d': -1 } as React.CSSProperties}>
           <div className={styles.content}>
             <div className={styles.img}>
-              <img src="./images/1.jpg" alt="" />
+              <img src={image1} alt="Anna" />
             </div>
             <div className={styles.detail}>
               <span>王婉儿（Anna）</span>
@@ -27,7 +32,7 @@ const CardCarouselLoader: React.FC<CardCarouselLoaderProps> = ({ isLoading, onCl
         <div className={styles.card} style={{ '--d': 0 } as React.CSSProperties}>
           <div className={styles.content}>
             <div className={styles.img}>
-              <img src="./images/2.jpg" alt="" />
+              <img src={image2} alt="Lily" />
             </div>
             <div className={styles.detail}>
               <span>李清雨（Lily）</span>
@@ -39,7 +44,7 @@ const CardCarouselLoader: React.FC<CardCarouselLoaderProps> = ({ isLoading, onCl
         <div className={styles.card} style={{ '--d': 1 } as React.CSSProperties}>
           <div className={styles.content}>
             <div className={styles.img}>
-              <img src="./images/3.jpg" alt="" />
+              <img src={image3} alt="Amy" />
             </div>
             <div className={styles.detail}>
               <span>张蓝心（Amy）</span>
@@ -51,7 +56,7 @@ const CardCarouselLoader: React.FC<CardCarouselLoaderProps> = ({ isLoading, onCl
         <div className={styles.card} style={{ '--d': 2 } as React.CSSProperties}>
           <div className={styles.content}>
             <div className={styles.img}>
-              <img src="./images/4.jpg" alt="" />
+              <img src={image4} alt="Freya" />
             </div>
             <div className={styles.detail}>
               <span>赵梦婷（Freya）</span>
@@ -63,7 +68,7 @@ const CardCarouselLoader: React.FC<CardCarouselLoaderProps> = ({ isLoading, onCl
         <div className={styles.card} style={{ '--d': 3 } as React.CSSProperties}>
           <div className={styles.content}>
             <div className={styles.img}>
-              <img src="./images/5.jpg" alt="" />
+              <img src={image5} alt="Alice" />
             </div>
             <div className={styles.detail}>
               <span>陈思雪（Alice）</span>
@@ -75,8 +80,8 @@ const CardCarouselLoader: React.FC<CardCarouselLoaderProps> = ({ isLoading, onCl
       </div>
 
       <div className={styles.register}>
-        <p>60秒完成注册，幸福一辈子!</p>
-        <div className={styles.btn}>免费注册</div>
+        <p>Carousel Demo</p>
+        <div className={styles.btn}>Login</div>
       </div>
     </div>
   );
